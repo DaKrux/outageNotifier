@@ -1,4 +1,5 @@
 node_modules
+builds
 
 # CDK asset staging directory
 .cdk.staging

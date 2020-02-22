@@ -1,0 +1,8 @@
+{
+  "813|mocha>js-yaml": {
+    "ignore": 1
+  },
+  "813|eslint>js-yaml": {
+    "ignore": 1
+  }
+}

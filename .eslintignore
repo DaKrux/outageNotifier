@@ -1,0 +1,6 @@
+builds/**
+boot/**
+tmp/**
+
+.cdk.staging
+cdk.out
