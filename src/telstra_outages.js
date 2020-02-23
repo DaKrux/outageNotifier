@@ -9,10 +9,10 @@ export async function checkTelstra() {
 
   const {data} = await axios.get(url, {timeout: 60000, validateStatus})
 
-  const connectionType = 'Cable'
+  const connectionType = ['Cable', 'NBN']
 
   return Object.values(data.serviceStatus)
-    .filter((outage) => outage.name === connectionType)
+    .filter((outage) => connectionType.includes(outage.name))
 
 }
 
