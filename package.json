@@ -106,7 +106,7 @@
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
-    "aws-cdk": "^1.21.1",
+    "aws-cdk": "^1.174.0",
     "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
